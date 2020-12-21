@@ -3,7 +3,7 @@
 # Assumes that the .config file is available in /proc/config.gz
 # Added check to see if make builds correctly; retry once if not
 
-SOURCE_TARGET="/usr/src/"
+#SOURCE_TARGET="/usr/src/"
 
 echo "Source Target: "$SOURCE_TARGET
 

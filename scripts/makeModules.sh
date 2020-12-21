@@ -3,6 +3,8 @@
 # Assumes that the .config file is available in /proc/config.gz
 # Added check to see if make builds correctly; retry once if not
 
+#SOURCE_TARGET="/usr/src/"
+
 echo "Source Target: "$SOURCE_TARGET
 
 MAKE_DIRECTORY="$SOURCE_TARGET"kernel/kernel-4.9
