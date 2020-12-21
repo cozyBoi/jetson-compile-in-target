@@ -17,6 +17,9 @@ SrcName="/kernel/Makefile"
 mv "$OrgSrcPath""$SrcName" "$OrgSrcPath""$SrcName"".tmp"
 cp "$PortedSrcPath""$SrcName" "$OrgSrcPath""$SrcName"
 
+SrcName="/kernel/key_value.c"
+cp "$PortedSrcPath""$SrcName" "$OrgSrcPath""$SrcName"
+
 #pci.c
 SrcName="/drivers/nvme/host/pci.c"
 mv "$OrgSrcPath""$SrcName" "$OrgSrcPath""$SrcName"".tmp"
