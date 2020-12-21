@@ -19,4 +19,13 @@ cp $(PortedSrcPath)$(SrcName) $(OrgSrcPath)$(SrcName)
 
 cp $(PortedSrcPath)"/kernel/keyvalue.c"  $(SrcName)"/kernel/keyvalue.c"
 
+#pci.c
+SrcName="/driver/nvme/host/pci.c"
+mv $(OrgSrcPath)$(SrcName) $(OrgSrcPath)$(SrcName)".tmp"
+cp $(PortedSrcPath)$(SrcName) $(OrgSrcPath)$(SrcName)
+
+#nvme.h
+SrcName="/include/linux/nvme.h"
+mv $(OrgSrcPath)$(SrcName) $(OrgSrcPath)$(SrcName)".tmp"
+cp $(PortedSrcPath)$(SrcName) $(OrgSrcPath)$(SrcName)
 
