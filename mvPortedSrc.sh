@@ -7,8 +7,8 @@ SrcName="/tools/perf/arch/x86/entry/syscalls/syscall_64.tbl"
 mv "$OrgSrcPath""$SrcName" "$OrgSrcPath""$SrcName"".tmp"
 cp "$PortedSrcPath""$SrcName" "$OrgSrcPath""$SrcName"
 
-#syscall.h
-SrcName="/include/linux/syscall.h"
+#syscalls.h
+SrcName="/include/linux/syscalls.h"
 mv "$OrgSrcPath""$SrcName" "$OrgSrcPath""$SrcName"".tmp"
 cp "$PortedSrcPath""$SrcName" "$OrgSrcPath""$SrcName"
 
@@ -18,12 +18,12 @@ mv "$OrgSrcPath""$SrcName" "$OrgSrcPath""$SrcName"".tmp"
 cp "$PortedSrcPath""$SrcName" "$OrgSrcPath""$SrcName"
 
 #pci.c
-SrcName="/driver/nvme/host/pci.c"
+SrcName="/drivers/nvme/host/pci.c"
 mv "$OrgSrcPath""$SrcName" "$OrgSrcPath""$SrcName"".tmp"
 cp "$PortedSrcPath""$SrcName" "$OrgSrcPath""$SrcName"
 
 #nvme.h
-SrcName="/include/linux/nvme.h"
+SrcName="/drivers/nvme/host/nvme.h"
 mv "$OrgSrcPath""$SrcName" "$OrgSrcPath""$SrcName"".tmp"
 cp "$PortedSrcPath""$SrcName" "$OrgSrcPath""$SrcName"
 
