@@ -30,4 +30,8 @@ SrcName="/drivers/nvme/host/nvme.h"
 mv "$OrgSrcPath""$SrcName" "$OrgSrcPath""$SrcName"".tmp"
 cp "$PortedSrcPath""$SrcName" "$OrgSrcPath""$SrcName"
 
+#unistd.h
+SrcName="/include/uapi/asm-generic/unistd.h"
+mv "$OrgSrcPath""$SrcName" "$OrgSrcPath""$SrcName"".tmp"
+cp "$PortedSrcPath""$SrcName" "$OrgSrcPath""$SrcName"
 
